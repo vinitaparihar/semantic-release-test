@@ -1,0 +1,47 @@
+branches:
+  - 'master'
+  - 'main'
+  - 'fix-4'
+plugins:
+  - '@semantic-release/commit-analyzer'
+  - preset: 'angular' # Use the Angular preset for commit message conventions
+    releaseRules:
+        - type: 'breaking'
+          release: 'major'
+        # - type: 'feat!'
+        #   release: 'major'
+        - type: 'feat'
+          release: 'major'
+        - type: 'refactor'
+          release: 'minor'
+        - type: 'fix'
+          release: 'patch'
+        - type: 'chore'
+          release: 'patch'
+        - type: 'docs'
+          scope: 'release'
+          release: 'patch'
+        - type: 'deprecate'
+          release: 'minor'
+        - type: 'remove'
+          release: 'minor'
+        - type: 'security'
+          release: 'patch'
+        - type: 'docs'
+          scope: 'README'
+          release: 'patch'
+        - type: 'refactor'
+          release: 'patch'
+        - type: 'test'
+          release: 'patch'
+        - type: 'change'
+          release: 'minor'                 
+  # - '@semantic-release/commit-analyzer'
+  - '@semantic-release/release-notes-generator'
+  - '@semantic-release/github'
+  - '@semantic-release/changelog'
+  - assets:
+        - CHANGELOG.md
+  - '@semantic-release/git'
+  - assets:
+        - CHANGELOG.md
