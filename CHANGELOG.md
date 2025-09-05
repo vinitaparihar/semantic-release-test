@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/vinitaparihar/semantic-release-test/compare/v1.0.0...v1.0.1) (2025-09-05)
+
+
+### Bug Fixes
+
+* cleanup ([dd91f1a](https://github.com/vinitaparihar/semantic-release-test/commit/dd91f1a17ce5ece3dabe72f78d9fa1e73f03ad76))
+
 # 1.0.0 (2025-09-05)
 
 
