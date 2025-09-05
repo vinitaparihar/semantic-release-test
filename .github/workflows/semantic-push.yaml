@@ -18,6 +18,6 @@ jobs:
           persist-credentials: false
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v4
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        # env:
+        #   GITHUB_TOKEN: ${{secrets.GIT_PAT_TOKEN}}
       
