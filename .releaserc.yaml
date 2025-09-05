@@ -2,6 +2,8 @@ branches:
   - 'master'
   - 'main'
   - 'fix-4'
+repositoryUrl: "https://github.com/vinitaparihar/semantic-release-test.git"
+
 plugins:
   - '@semantic-release/commit-analyzer'
   - preset: 'angular' # Use the Angular preset for commit message conventions
