@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/vinitaparihar/semantic-release-test/compare/v1.0.2...v1.1.0) (2025-09-08)
+
+
+### Features
+
+* add feature ([692be38](https://github.com/vinitaparihar/semantic-release-test/commit/692be38f2d463558665a68bbfd84d6cd8f172084))
+
 ## [1.0.2](https://github.com/vinitaparihar/semantic-release-test/compare/v1.0.1...v1.0.2) (2025-09-08)
 
 
