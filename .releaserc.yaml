@@ -10,8 +10,8 @@ plugins:
     releaseRules:
         - type: 'breaking'
           release: 'major'
-        # - type: 'feat!'
-        #   release: 'major'
+        - type: 'feat!'
+          release: 'major'
         - type: 'feat'
           release: 'major'
         - type: 'refactor'
