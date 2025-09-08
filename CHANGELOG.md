@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/vinitaparihar/semantic-release-test/compare/v1.1.0...v1.2.0) (2025-09-08)
+
+
+### Features
+
+* update workflow ([8f85f3d](https://github.com/vinitaparihar/semantic-release-test/commit/8f85f3d299b318f7ea96ac522d6e5d58305b95bd))
+
 # [1.1.0](https://github.com/vinitaparihar/semantic-release-test/compare/v1.0.2...v1.1.0) (2025-09-08)
 
 
