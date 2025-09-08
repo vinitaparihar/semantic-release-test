@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/vinitaparihar/semantic-release-test/compare/v1.2.0...v2.0.0) (2025-09-08)
+
+
+### Features
+
+* remove unused code ([4b5b45b](https://github.com/vinitaparihar/semantic-release-test/commit/4b5b45b7c585d903ca63a0518c47aea1b8854933))
+
+
+### BREAKING CHANGES
+
+* remove old feature
+
 # [1.2.0](https://github.com/vinitaparihar/semantic-release-test/compare/v1.1.0...v1.2.0) (2025-09-08)
 
 
